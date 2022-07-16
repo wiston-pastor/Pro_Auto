@@ -1,0 +1,56 @@
+header {
+    height: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , 
+                        url("../img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+  }
+
+.content-header{
+    color:#fff;
+    background-color:rgba(122, 119, 119, 0.849) ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.content-header h1 {
+    font-size: 7rem ;
+}
+.content-header p{
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+
+.content-header a{
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fff;
+    background: rgb(116, 116, 238);
+    text-decoration: none;
+}
+
+.content-header a:hover{
+    background:  #6868f1;
+    border: 2px solid #fff;
+    padding: 13px 18px;
+}
+
+.imagenes{
+    width: 400px;
+    height: 300px;
+    background: #208d5a93;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-2.5%);
+    top: 500px;
+    margin-bottom: 0PX;
+}
+
+
